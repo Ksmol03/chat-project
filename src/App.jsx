@@ -3,18 +3,25 @@ import Sidebar from './components/Sidebar'
 import ChatWindow from './components/ChatWindow'
 import './assets/styles.css'
 import DATA from './data.json'
+import ChooseChat from './components/ChooseChat'
 
 const App = () => {
   const[data, setData] = useState(DATA);
+  const[selectedUser, setSelectedUser] = useState(-1);
 
   const setToRead = (id) => {
-    setData(data.map((friend, i) => i == id ? {...friend, "read": true} : friend));
+    setData(data.map((friend, i) => i == id ? {...friend, 'read': true} : friend));
+    setSelectedUser(id);
+  }
+
+  const addMessage = (text) => {
+    setData(data.map((friend, i) => i == selectedUser ? {...friend, 'messages': [...friend.messages, {'type': 'to', 'message': text}]} : friend));
   }
 
   return (
     <main>
       <Sidebar data={data} setToRead={setToRead} />
-      <ChatWindow data={data} setData={setData}/>
+      {selectedUser == -1 ? <ChooseChat /> : <ChatWindow messages={data[selectedUser].messages} />}
     </main>
   )
 }
