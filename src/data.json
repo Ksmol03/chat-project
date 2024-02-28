@@ -1,40 +1,43 @@
 [
     {
-      "first_name": "Rashid",
-      "last_name": "Amamendayu",
-      "profile_image": "./images/rashid.jpg",
+      "firstName": "Rashid",
+      "lastName": "Amamendayu",
+      "profileImage": "./images/rashid.jpg",
       "messages": [
         {
           "type": "from", 
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
         {
           "type": "to", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}
-      ]
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"}
+      ],
+      "read": false
     },{
-      "first_name": "Vitold",
-      "last_name": "Sybille",
-      "profile_image": "./images/vitold.jpg",
+      "firstName": "Vitold",
+      "lastName": "Sybille",
+      "profileImage": "./images/vitold.jpg",
       "messages": [
         {
           "type": "from", 
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
         {
           "type": "to", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}
-      ]
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"}
+      ],
+      "read": true
     },
     {
-      "first_name": "Lauri",
-      "last_name": "Rauha",
-      "profile_image": "./images/lauri.jpg",
+      "firstName": "Lauri",
+      "lastName": "Rauha",
+      "profileImage": "./images/lauri.jpg",
       "messages": [
         {
           "type": "from", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"}, 
         {
           "type": "to", 
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}
-      ]
+      ], 
+      "read": true
     }
   ]
