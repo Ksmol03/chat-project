@@ -1,0 +1,40 @@
+[
+    {
+      "first_name": "Rashid",
+      "last_name": "Amamendayu",
+      "profile_image": "./images/rashid.jpg",
+      "messages": [
+        {
+          "type": "from", 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
+        {
+          "type": "to", 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}
+      ]
+    },{
+      "first_name": "Vitold",
+      "last_name": "Sybille",
+      "profile_image": "./images/vitold.jpg",
+      "messages": [
+        {
+          "type": "from", 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
+        {
+          "type": "to", 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}
+      ]
+    },
+    {
+      "first_name": "Lauri",
+      "last_name": "Rauha",
+      "profile_image": "./images/lauri.jpg",
+      "messages": [
+        {
+          "type": "from", 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
+        {
+          "type": "to", 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}
+      ]
+    }
+  ]

@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Sidebar from './components/Sidebar'
+import ChatWindow from './components/ChatWindow'
+import './assets/styles.css'
+import DATA from './data.json'
 
 const App = () => {
+  const[data, setData] = useState(DATA);
+
   return (
-    <div>App</div>
+    <main>
+      <Sidebar friends={data} />
+      <ChatWindow />
+    </main>
   )
 }
 
