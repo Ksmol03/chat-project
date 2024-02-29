@@ -1,46 +1,97 @@
 [
-    {
-      "firstName": "Rashid",
-      "lastName": "Amamendayu",
-      "profileImage": "./images/rashid.jpg",
-      "messages": [
-        {
-          "type": "from", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
-        {
-          "type": "to", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"}
-      ],
-      "read": false
-    },{
-      "firstName": "Vitold",
-      "lastName": "Sybille",
-      "profileImage": "./images/vitold.jpg",
-      "messages": [
-        {
-          "type": "from", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
-        {
-          "type": "to", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"},
-        {
-          "type": "from", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit ametdefs"}
-      ], 
-      "read": true
-    },
-    {
-      "firstName": "Lauri",
-      "lastName": "Rauha",
-      "profileImage": "./images/lauri.jpg",
-      "messages": [
-        {
-          "type": "from", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"}, 
-        {
-          "type": "to", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}
-      ], 
-      "read": true
-    }
-  ]
+  {
+    "id": 0,
+    "firstName": "John",
+    "lastName": "Doe",
+    "profileImage": "./images/john.jpg",
+    "messages": [
+      { "type": "from", "message": "Hello John, how are you doing today?" },
+      { "type": "to", "message": "Hi there! I'm good, thanks. How about you?" },
+      { "type": "from", "message": "I'm doing well, just busy with work. How's your day going?" },
+      { "type": "to", "message": "It's been a productive day so far. Anything exciting happening on your end?" },
+      { "type": "from", "message": "Not much, just the usual. By the way, did you get a chance to check out that new movie?" },
+      { "type": "to", "message": "Not yet, but I heard it's really good. Planning to watch it this weekend." },
+      { "type": "from", "message": "Nice! Let me know how you like it. I'm curious to hear your thoughts." },
+      { "type": "to", "message": "Will do! Anyway, got to get back to work. Talk to you later." },
+      { "type": "from", "message": "Sure thing. Take care and have a great day!" },
+      { "type": "to", "message": "You too! Bye for now." }
+    ],
+    "read": true
+  },
+  {
+    "id": 1,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "profileImage": "./images/alice.jpg",
+    "messages": [
+      { "type": "from", "message": "Hey Alice, how's your day going?" },
+      { "type": "to", "message": "Hi! It's been good so far. Just finished a workout. How about you?" },
+      { "type": "from", "message": "Nice! I wish I had your motivation. I'm just chilling and reading a book." },
+      { "type": "to", "message": "That sounds relaxing. What book are you reading?" },
+      { "type": "from", "message": "It's a mystery novel. Really gripping storyline." },
+      { "type": "to", "message": "I love a good mystery! Let me know if it's worth checking out." },
+      { "type": "from", "message": "Absolutely, I'll keep you posted. Anything exciting on your agenda today?" },
+      { "type": "to", "message": "Not much, just some work and maybe catching up on a series later." },
+      { "type": "from", "message": "Sounds like a plan. Enjoy your day, and let's catch up soon!" },
+      { "type": "to", "message": "You too! Take care and talk to you later." }
+    ],
+    "read": false
+  },
+  {
+    "id": 2,
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "profileImage": "./images/michael.jpg",
+    "messages": [
+      { "type": "from", "message": "Hey Michael, did you catch the game last night?" },
+      { "type": "to", "message": "Hi! Unfortunately, I missed it. How did our team do?" },
+      { "type": "from", "message": "It was an intense match, but we won in the last minute! The crowd went wild." },
+      { "type": "to", "message": "That's amazing! I'll have to catch the highlights. Who scored the winning goal?" },
+      { "type": "from", "message": "It was James. He's on fire this season!" },
+      { "type": "to", "message": "James is a beast on the field. Can't wait to see the highlights. Anything else exciting happening?" },
+      { "type": "from", "message": "Not much, just work and some weekend plans. How about you?" },
+      { "type": "to", "message": "Same here, work and maybe a movie night. Let me know if you have any good recommendations!" },
+      { "type": "from", "message": "Will do! Enjoy your day, and let's catch up soon over a game or something." },
+      { "type": "to", "message": "Absolutely! Looking forward to it. Take care!" }
+    ],
+    "read": true
+  },
+  {
+    "id": 3,
+    "firstName": "Emily",
+    "lastName": "Anderson",
+    "profileImage": "./images/emily.jpg",
+    "messages": [
+      { "type": "from", "message": "Hi Emily! How's your week going so far?" },
+      { "type": "to", "message": "Hello! It's been busy, but good. How about yours?" },
+      { "type": "from", "message": "Busy as well, but I managed to finish that project we were working on." },
+      { "type": "to", "message": "That's fantastic news! Great job! When can we expect the presentation?" },
+      { "type": "from", "message": "I'll have it ready by Friday. Let me know if you want to go through it together before the meeting." },
+      { "type": "to", "message": "Absolutely, let's schedule a quick review on Thursday. Thanks for your hard work!" },
+      { "type": "from", "message": "No problem at all! Teamwork makes the dream work. Anything else on your plate?" },
+      { "type": "to", "message": "Just a few more tasks, but nothing too crazy. Looking forward to the weekend already." },
+      { "type": "from", "message": "Same here! Enjoy your day, and let's crush those tasks together." },
+      { "type": "to", "message": "Definitely! Have a great one, talk to you soon." }
+    ],
+    "read": false
+  }, 
+  {
+    "id": 4,
+    "firstName": "Sophie",
+    "lastName": "Miller",
+    "profileImage": "./images/spohie.jpg",
+    "messages": [
+      { "type": "from", "message": "Hi Sophie! How's everything going on your end?" },
+      { "type": "to", "message": "Hey there! Things are going well. Just finished a yoga session. How about you?" },
+      { "type": "from", "message": "Yoga sounds refreshing! I'm just preparing for a family dinner tonight." },
+      { "type": "to", "message": "That sounds lovely! What's on the menu for tonight's dinner?" },
+      { "type": "from", "message": "I'm thinking of making some homemade pasta and garlic bread. Always a hit with the family." },
+      { "type": "to", "message": "Yum! Save me a plate if you can. I'd love to join for dinner sometime!" },
+      { "type": "from", "message": "Absolutely! Next time you're in town, it's a date. Anything exciting happening on your side?" },
+      { "type": "to", "message": "Not much, just the usual. Work and a bit of relaxation. Looking forward to the weekend." },
+      { "type": "from", "message": "Sounds like a plan! Enjoy your family dinner and have a wonderful evening." },
+      { "type": "to", "message": "Thanks! Wishing you a fantastic evening too. Talk to you soon!" }
+    ],
+    "read": true
+  }  
+]

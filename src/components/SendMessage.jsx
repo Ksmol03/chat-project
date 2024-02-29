@@ -10,9 +10,9 @@ const SendMessage = ({ handleSend }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
-      <button type="submit">Send</button>
+    <form className='send-message' onSubmit={handleSubmit}>
+      <input type="text" name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Send message...'/>
+      <button type="submit"></button>
     </form>
   )
 }
