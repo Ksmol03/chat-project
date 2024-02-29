@@ -21,7 +21,7 @@ const App = () => {
   return (
     <main>
       <Sidebar data={data} setToRead={setToRead} />
-      {selectedUser == -1 ? <ChooseChat /> : <ChatWindow messages={data[selectedUser].messages} />}
+      {selectedUser == -1 ? <ChooseChat /> : <ChatWindow messages={data[selectedUser].messages} addMessage={addMessage}/>}
     </main>
   )
 }

@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const SendMessage = () => {
+const SendMessage = ({ handleSend }) => {
+  const[message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleSend(message);
+    setMessage('');
+  }
+
   return (
-    <div>SendMessage</div>
+    <form onSubmit={handleSubmit}>
+      <input type="text" name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
+      <button type="submit">Send</button>
+    </form>
   )
 }
 

@@ -22,8 +22,11 @@
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet"}, 
         {
           "type": "to", 
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"}
-      ],
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet last"},
+        {
+          "type": "from", 
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit ametdefs"}
+      ], 
       "read": true
     },
     {
