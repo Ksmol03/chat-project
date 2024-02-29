@@ -11,7 +11,7 @@ const SendMessage = ({ handleSend }) => {
 
   return (
     <form className='send-message' onSubmit={handleSubmit}>
-      <input type="text" name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Send message...'/>
+      <input type="text" name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Send message...' autoComplete='off'/>
       <button type="submit"></button>
     </form>
   )
